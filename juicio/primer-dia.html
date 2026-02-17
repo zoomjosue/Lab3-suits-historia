@@ -7,55 +7,94 @@
 <body>
 
   <header>
-    <h1>El Primer Día en Pearson Hardman</h1>
+    <h1>Primer Día en Pearson Hardman</h1>
   </header>
 
-  <main>
-    <figure>
-      <img
-        src="/lab3/24918/Lab3-suits-historia/images/pearson.jpg"
-        alt="Oficinas modernas de un despacho de abogados de Manhattan con vista panorámica"
-      />
-      <figcaption>Pearson Hardman, donde los mejores abogados de Nueva York trabajan</figcaption>
-    </figure>
+  <nav aria-label="breadcrumb">
+    <ol>
+      <li><a href="../index.html">Inicio</a></li>
+      <li>Primer Día en Pearson Hardman</li>
+    </ol>
+  </nav>
 
-    <section>
-      <p>
-        Son las 7:58 AM, llegas dos minutos antes de lo acordado porque sabías que
-        Donna lo notaría si llegabas exactamente a las 8.
-      </p>
-      <p>
-        Donna te mira desde su escritorio sin levantarse.
-        <q>Mike Ross, Ssin título, sin experiencia real, pero Harvey dice que eres
-        lo más cercano a un genio que ha visto en una entrevista.</q>
-        <q>Eso me preocupa más que tranquilizarme.</q>
-      </p>
-      <p>
-        Te entrega una carpeta gruesa. <q>Tienes hasta las 2 PM para leer esto,
-        memorizarlo y tener tres estrategias distintas para el caso Devlin, Harvey
-        te preguntará en la reunión como si llevaras un año en el caso.</q>
-      </p>
-      <p>
-        Son 400 páginas y tú sonríes porque sabes que necesitas exactamente
-        13 minutos para memorizar todo.
-      </p>
-      <p>
-        A las 2 PM, Harvey entra a la sala sin saludar.
-        <q>Devlin, ¿Qué tienes?</q>
-      </p>
-      <p>
-        Hablas durante veinte minutos sin parar. Harvey no te interrumpe ni una vez,
-        lo cual, según Donna te dirá después, nunca había pasado antes.
-      </p>
-      <p>
-        Pero al salir de la reunión, Louis Litt te bloquea el paso en el pasillo.
-        Louis es socio del despacho y tiene una mirada que dice que algo en ti no cuadra.
-      </p>
-      <p>
-        <q>¿En qué clase tuviste a Derecho Constitucional en Harvard?</q> pregunta
-        sin preámbulos.
-      </p>
-    </section>
+  <main>
+
+    <dialog open id="modal-primer-dia">
+      <form method="dialog">
+        <h2>Bienvenido a Pearson Hardman</h2>
+        <p>Hoy es tu primer día. Un error aquí no solo te cuesta el trabajo, le cuesta a Harvey su carrera.</p>
+        <button type="submit">Estoy listo</button>
+      </form>
+    </dialog>
+
+    
+
+    <article>
+
+      <figure>
+        <img
+          src="/lab3/24918/Lab3-suits-historia/images/pearson.jpg"
+          alt="Oficinas modernas de un despacho de abogados de Manhattan con vista panorámica"
+        />
+        <figcaption>Pearson Hardman — donde los mejores abogados de Nueva York trabajan</figcaption>
+      </figure>
+
+      <section>
+        <p>
+          Son las <time datetime="2025-09-18T07:58">7:58 AM</time>.
+          Llegas dos minutos antes de lo acordado porque sabías que
+          Donna lo notaría si llegabas exactamente a las 8.
+        </p>
+        <p>
+          Donna te mira desde su escritorio sin levantarse.
+          <q>Mike Ross. Sin título. Sin experiencia real. Pero Harvey dice que eres
+          lo más cercano a un genio que ha visto en una entrevista.</q>
+          Pausa. <q>Eso me preocupa más que tranquilizarme.</q>
+        </p>
+        <p>
+          Te entrega una carpeta gruesa. <q>Tienes hasta las 2 PM para leer esto,
+          memorizarlo y tener tres estrategias distintas para el caso Devlin. Harvey
+          te preguntará en la reunión como si llevaras un año en el caso.</q>
+        </p>
+        <p>
+          Son 400 páginas. Tú sonríes porque sabes que necesitas exactamente
+          13 minutos para memorizarlas todas.
+        </p>
+        <p>
+          A las <time datetime="2025-09-18T14:00">2 PM</time>, Harvey entra a la sala sin saludar.
+          <q>Devlin. ¿Qué tienes?</q>
+        </p>
+        <p>
+          Hablas durante veinte minutos sin parar. Harvey no te interrumpe ni una vez,
+          lo cual, según Donna te dirá después, nunca había pasado antes.
+        </p>
+        <p>
+          Pero al salir de la reunión, Louis Litt te bloquea el paso en el pasillo.
+          Louis es socio del despacho y tiene una mirada que dice que algo en ti no cuadra.
+        </p>
+        <p>
+          <q>¿En qué clase tuviste Derecho Constitucional en Harvard?</q> pregunta
+          sin preámbulos.
+        </p>
+      </section>
+
+      <aside>
+        <details>
+          <summary>¿Quién es Louis Litt?</summary>
+          <p>
+            Louis Litt es socio de Pearson Hardman, brillante en derecho corporativo
+            y rival eterno de Harvey. Es meticuloso, desconfiado y tiene una memoria
+            casi tan buena como la tuya. Si alguien puede descubrir tu secreto, es él.
+          </p>
+        </details>
+      </aside>
+
+      <section>
+        <p><strong>Progreso en la historia:</strong></p>
+        <progress value="65" max="100">65%</progress>
+      </section>
+
+    </article>
 
     <nav>
       <p><strong>Louis sospecha. ¿Cómo respondes?</strong></p>
@@ -64,11 +103,8 @@
         <li><a href="../finale/harvey-te-cubre.html">Buscas a Harvey antes de responder, necesitas que te cubra</a></li>
       </ul>
     </nav>
-  </main>
 
-  <footer>
-    <p><a href="../index.html">Volver al inicio</a></p>
-  </footer>
+  </main>
 
 </body>
 </html>

@@ -7,69 +7,100 @@
 <body>
 
   <header>
-    <h1>La Entrevista</h1>
+    <h1>Una decisión arriesgada</h1>
   </header>
 
-  <main>
-    <figure>
-      <img
-        src="/lab3/24918/Lab3-suits-historia/images/oficina.jpg"
-        alt="Sala de conferencias moderna con vista a Manhattan en un rascacielos"
-      />
-      <figcaption>Sala de entrevistas, Piso 32, Hotel Chilton</figcaption>
-    </figure>
+  <nav aria-label="breadcrumb">
+    <ol>
+      <li><a href="../index.html">Inicio</a></li>
+      <li>La Entrevista</li>
+    </ol>
+  </nav>
 
-    <section>
-      <p>
-        Te sientas, respiras y pones el maletín de Trevor sobre la mesa como si fuera tuyo.
-        Harvey ni siquiera levanta la vista del expediente que tiene en las manos.
-      </p>
-      <p>
-        <q>Harvard, Promoción 2008. ¿Por qué derecho corporativo?</q> pregunta sin mirarte.
-      </p>
-      <p>
-        Sabes exactamente qué responder, llevas años estudiando esto por tu cuenta.
-        <q>Porque los casos corporativos mueven el mundo real, los criminales van a la cárcel,
-        pero las corporaciones mueven países. Prefiero estar donde está el poder.</q>
-      </p>
-      <p>
-        Harvey levanta la vista por primera vez, te estudia.
-      </p>
-      <p>
-        <q>Caso Hardman versus la SEC, 1992. ¿Cuál fue el argumento de la defensa?</q>
-      </p>
-      <p>
-        Lo sabes de memoria, lo citas con precisión, incluyendo el nombre del juez
-        y la fecha del fallo. Harvey entrecierra los ojos.
-      </p>
-      <p>
-        <q>Eso no está en ningún libro de texto.</q>
-      </p>
-      <p>
-        <q>No, está en el archivo público del tribunal, lo leí hace tres años.</q>
-      </p>
-      <p>
-        Silencio. Harvey cierra la carpeta y en ese momento entra Donna y susurra algo en su oído.
-        Harvey asiente despacio sin quitarte los ojos de encima.
-      </p>
-      <p>
-        <q>Hay policías en el lobby preguntando por alguien con tu descripción.</q>
-        Su tono no cambia. <q>¿Quieres contarme algo?</q>
-      </p>
-    </section>
+  <main>
+
+    <dialog open id="modal-decision">
+      <form method="dialog">
+        <p>Vas a fingir ser un graduado de Harvard sin serlo, en el despacho más prestigioso de Nueva York. ¿Estás seguro?</p>
+        <button type="submit">Sí, me arriesgo</button>
+      </form>
+    </dialog>
+
+    
+
+    <article>
+
+      <figure>
+        <img
+          src="/lab3/24918/Lab3-suits-historia/images/oficina.jpg"
+          alt="Sala de conferencias moderna con vista a Manhattan en un rascacielos"
+        />
+        <figcaption>Sala de entrevistas — Piso 32, Hotel Chilton</figcaption>
+      </figure>
+
+      <section>
+        <h2>La Entrevista</h2>
+        <p>
+          Te sientas. Respiras. Pones el maletín de Trevor sobre la mesa como si fuera tuyo.
+          Harvey ni siquiera levanta la vista del expediente que tiene en las manos.
+        </p>
+        <p>
+          <q>Harvard. Promoción 2008. ¿Por qué derecho corporativo?</q> pregunta sin mirarte.
+        </p>
+        <p>
+          Sabes exactamente qué responder. Llevas años estudiando esto por tu cuenta.
+          <q>Porque los casos corporativos mueven el mundo real. Los criminales van a la cárcel,
+          pero las corporaciones mueven países. Prefiero estar donde está el poder.</q>
+        </p>
+        <p>Harvey levanta la vista por primera vez. Te estudia.</p>
+        <p><q>Caso Hardman versus la SEC, 1992. ¿Cuál fue el argumento de la defensa?</q></p>
+        <p>
+          Lo sabes de memoria. Lo citas con precisión quirúrgica, incluyendo el nombre del juez
+          y la fecha del fallo. Harvey entrecierra los ojos.
+        </p>
+        <p><q>Eso no está en ningún libro de texto.</q></p>
+        <p><q>No. Está en el archivo público del tribunal. Lo leí hace tres años.</q></p>
+        <p>
+          Silencio. Harvey cierra la carpeta. En ese momento entra Donna y susurra algo en su oído.
+          Harvey asiente despacio sin quitarte los ojos de encima.
+        </p>
+        <p>
+          <q>Hay policías en el lobby preguntando por alguien con tu descripción.</q>
+          Su tono no cambia. <q>¿Quieres contarme algo?</q>
+        </p>
+        <p>
+          Son las <time datetime="2025-09-15T08:47">8:47 de la mañana</time>.
+          Tienes exactamente dos opciones.
+        </p>
+      </section>
+
+      <aside>
+        <details>
+          <summary>¿Quién es Donna Paulsen?</summary>
+          <p>
+            Donna es la asistente personal de Harvey y la persona que realmente controla
+            Pearson Hardman. Sabe todo antes de que ocurra. Es brillante, leal y tiene
+            una memoria casi tan buena como la tuya. Si Donna no te aprueba, nadie lo hará.
+          </p>
+        </details>
+      </aside>
+
+      <section>
+        <p><strong>Progreso en la historia:</strong></p>
+        <progress value="30" max="100">30%</progress>
+      </section>
+
+    </article>
 
     <nav>
       <p><strong>Te descubrieron. ¿Qué haces?</strong></p>
       <ul>
-        <li><a href="../juicio/confesion.html">Le confiesas todo, desde el maletín, Trevor, que no eres de Harvard, etc.</a></li>
-        <li><a href="../juicio/mentira.html">Mantienes la mentira y niegas cualquier relación con la policía</a></li>
+        <li><a href="../juicio/confesion.html">Le confiesas todo — el maletín, Trevor, que no eres de Harvard</a></li>
+        <li><a href="../juicio/farol.html">Mantienes el farol y niegas cualquier relación con la policía</a></li>
       </ul>
     </nav>
-  </main>
 
-  <footer>
-    <p><a href="../index.html">Volver al inicio</a></p>
-  </footer>
+  </main>
 
 </body>
 </html>

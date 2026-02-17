@@ -10,45 +10,81 @@
     <h1>La Confesión</h1>
   </header>
 
+  <nav aria-label="breadcrumb">
+    <ol>
+      <li><a href="../index.html">Inicio</a></li>
+      <li><a href="../oficina/entrevista.html">La Entrevista</a></li>
+      <li>La Confesión</li>
+    </ol>
+  </nav>
+
   <main>
-    <section>
-      <p>
-        Respiras hondo. Si Harvey ya lo sabe, mentir ahora solo empeoraría las cosas.
-      </p>
-      <p>
-        <q>El maletín no es mío, mi amigo Trevor me pidió entregarlo sin decirme qué había
-        dentro. Cuando vi los policías abajo entendí en qué me había metido y entré aquí
-        buscando una salida y no soy de Harvard, Nunca lo fui.
-        Pero me sé cada caso, cada ley y cada argumento que cualquier graduado de ahí
-        podría citar. Si quieres comprobarlo, pregúntame lo que quieras.</q>
-      </p>
-      <p>
-        Harvey no dice nada durante diez segundos que se sienten como diez minutos.
-        Luego hace algo que no esperabas, sonríe.
-      </p>
-      <p>
-        <q>Harvard produce abogados que saben las reglas.</q> Se levanta y se ajusta
-        la corbata. <q>Yo necesito a alguien que sepa cuándo romperlas.</q>
-      </p>
-      <p>
-        Llama a Donna por el intercomunicador.
-        <q>Donna, hay una salida de servicio al fondo, acompáñalo.</q>
-        Te mira una última vez. <q>El lunes, 8 AM, no llegues tarde.</q>
-      </p>
-    </section>
+
+    <dialog open id="modal-confesion">
+      <form method="dialog">
+        <h2>Sin retorno</h2>
+        <p>Una vez que confieses, Harvey sabrá todo. Tu secreto quedará en manos del abogado más poderoso de Nueva York.</p>
+        <button type="submit">Entendido, confieso todo</button>
+      </form>
+    </dialog>
+
+    
+
+    <article>
+
+      <section>
+        <p>Respiras hondo. Si Harvey ya lo sabe, mentir ahora solo empeoraría las cosas.</p>
+        <p>
+          <q>El maletín no es mío. Mi amigo Trevor me pidió entregarlo sin decirme qué había
+          dentro. Cuando vi los policías abajo entendí en qué me había metido. Entré aquí
+          buscando una salida.</q> Pausa. <q>Y no soy de Harvard. Nunca lo fui.
+          Pero me sé cada caso, cada ley y cada argumento que cualquier graduado de ahí
+          podría citar. Si quieres comprobarlo, pregúntame lo que quieras.</q>
+        </p>
+        <p>
+          Harvey no dice nada durante diez segundos que se sienten como diez minutos.
+          Luego hace algo que no esperabas: sonríe.
+        </p>
+        <p>
+          <q>Harvard produce abogados que saben las reglas.</q> Se levanta y se ajusta
+          la corbata. <q>Yo necesito a alguien que sepa cuándo romperlas.</q>
+        </p>
+        <p>
+          Llama a Donna por el intercomunicador.
+          <q>Donna, hay una salida de servicio al fondo. Acompáñalo.</q>
+          Te mira una última vez.
+          <q>El <time datetime="2025-09-18">lunes</time>. 8 AM. No llegues tarde.</q>
+        </p>
+      </section>
+
+      <aside>
+        <details>
+          <summary>¿Qué arriesga Harvey al contratarte?</summary>
+          <p>
+            Harvey pone en juego su reputación, su cargo como socio y posiblemente
+            su licencia de abogado. Si alguien descubre que contrataste a un asociado
+            sin título, ambos podrían enfrentar consecuencias legales graves.
+            La tensión de mantener ese secreto es el motor de toda la serie.
+          </p>
+        </details>
+      </aside>
+
+      <section>
+        <p><strong>Progreso en la historia:</strong></p>
+        <progress value="50" max="100">50%</progress>
+      </section>
+
+    </article>
 
     <nav>
-      <p><strong>Tienes el trabajo, ahora viene lo difícil. ¿Qué pasa el lunes?</strong></p>
+      <p><strong>Tienes el trabajo. Ahora viene lo difícil. ¿Qué pasa el lunes?</strong></p>
       <ul>
         <li><a href="../juicio/primer-dia.html">Llegas puntual y Donna te pone a prueba desde el primer minuto</a></li>
         <li><a href="../juicio/secreto-louis.html">Louis Litt sospecha algo raro en ti desde el primer día</a></li>
       </ul>
     </nav>
-  </main>
 
-  <footer>
-    <p><a href="../index.html">Volver al inicio</a></p>
-  </footer>
+  </main>
 
 </body>
 </html>

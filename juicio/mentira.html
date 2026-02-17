@@ -10,53 +10,87 @@
     <h1>La Mentira</h1>
   </header>
 
+  <nav aria-label="breadcrumb">
+    <ol>
+      <li><a href="../index.html">Inicio</a></li>
+      <li><a href="../oficina/entrevista.html">La Entrevista</a></li>
+      <li>El Farol</li>
+    </ol>
+  </nav>
+
   <main>
-    <section>
-      <p>
-        <q>No sé de qué policías me hablas,</q> dices con la mayor calma que puedes reunir.
-        <q>Vine a una entrevista de trabajo, eso es todo.</q>
-      </p>
-      <p>
-        Harvey te mira sin parpadear, es el tipo de mirada que ha usado en salas de tribunal
-        para hacer temblar a testigos. Tú sostienes el contacto visual.
-      </p>
-      <p>
-        Donna vuelve a entrar, Eesta vez con un policía de civil detrás.
-      </p>
-      <p>
-        El agente pone sobre la mesa una foto tuya entrando al hotel junto a Trevor
-        cargando el maletín, la fecha y hora están marcadas.
-      </p>
-      <p>
-        Harvey mira la foto, te mira a ti. Cierra la carpeta con calma.
-      </p>
-      <p>
-        <q>Gracias por su tiempo,</q> le dice al agente. Cuando el policía sale,
-        Harvey se dirige a ti con una voz completamente diferente, fría y directa.
-        <q>Mentirme fue tu único error real, la droga te la perdono.
-        La mentira, no.</q>
-      </p>
-      <p>
-        Te señala la puerta y la oportunidad de tu vida se cierra frente a tus ojos.
-      </p>
-    </section>
+
+    <dialog open id="modal-farol">
+      <form method="dialog">
+        <h2>Estás apostando todo</h2>
+        <p>Mentirle directamente a Harvey Specter es la jugada más arriesgada que puedes hacer. ¿Estás completamente seguro?</p>
+        <button type="submit">Sí, mantengo el farol</button>
+      </form>
+    </dialog>
+
+    
+
+    <article>
+
+      <section>
+        <p>
+          <q>No sé de qué policías me hablas,</q> dices con la mayor calma que puedes reunir.
+          <q>Vine a una entrevista de trabajo. Eso es todo.</q>
+        </p>
+        <p>
+          Harvey te mira sin parpadear. Es el tipo de mirada que ha usado en salas de tribunal
+          para hacer temblar a testigos. Tú sostienes el contacto visual.
+        </p>
+        <p>Donna vuelve a entrar. Esta vez con un policía de civil detrás.</p>
+        <p>
+          El agente pone sobre la mesa una foto tuya entrando al hotel junto a Trevor
+          cargando el maletín. La foto tiene marca de tiempo:
+          <time datetime="2025-09-15T07:43">7:43 AM</time>.
+        </p>
+        <p>
+          Harvey mira la foto. Te mira a ti. Cierra la carpeta con calma.
+        </p>
+        <p>
+          <q>Gracias por su tiempo,</q> le dice al agente. Cuando el policía sale,
+          Harvey se dirige a ti con una voz completamente diferente, fría y directa:
+          <q>Mentirme fue tu único error real. La droga te la perdono.
+          La mentira, no.</q>
+        </p>
+        <p>Te señala la puerta. La oportunidad de tu vida se cierra frente a tus ojos.</p>
+      </section>
+
+      <aside>
+        <details>
+          <summary>¿Qué salió mal?</summary>
+          <p>
+            Harvey Specter puede tolerar muchas cosas en su mundo. Una mentira directa
+            a su cara no es una de ellas. Su regla fundamental es la lealtad absoluta.
+            Puedes ocultarle cosas al mundo, pero nunca a él.
+          </p>
+        </details>
+      </aside>
+
+      <section>
+        <p><strong>Progreso en la historia:</strong></p>
+        <progress value="100" max="100">100%</progress>
+      </section>
+
+    </article>
 
     <aside>
-      <p><strong>— FIN: La mentira incorrecto —</strong></p>
+      <p><strong> FIN: La mentira incorrecto </strong></p>
       <p>
-        Harvey Specter puede tolerar muchas cosas, pero una mentira directa a su cara
-        no es una de ellas. A veces la verdad es la única estrategia ganadora.
+        A veces la verdad es la única estrategia ganadora.
       </p>
     </aside>
 
     <nav>
-      <p><a href="../index.html">Volver al inicio e intentarlo de nuevo</a></p>
+      <ul>
+        <li><a href="../index.html">Volver al inicio e intentarlo de nuevo</a></li>
+      </ul>
     </nav>
-  </main>
 
-  <footer>
-    <p>Una historia basada en la serie <strong>Suits</strong></p>
-  </footer>
+  </main>
 
 </body>
 </html>
